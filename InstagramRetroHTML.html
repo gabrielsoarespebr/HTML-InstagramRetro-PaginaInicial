@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Retrô</title>
+    <link href="./InstagramRetroLogo.png" rel="shortcut icon" type="imagem/png">
+    <style>
+        * {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: brown;
+        }
+
+        body {
+            background-image: url("BackgroundTexture.png");
+            background-size: cover;
+        }
+
+        #InstaRetroLogo {
+            margin-top: 12%;
+        }
+
+        label {
+            font-size: 25px;
+        }
+
+        footer {
+            position: absolute;
+            right: 0%;
+            bottom: 0%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <figure id="InstaRetroLogo">
+        <img src="./InstagramRetroLogo.png" alt="Instagram Logo" type="imagem/png" height="150" width="150">
+    </figure>
+
+    <h1>Instagram Retrô</h1>
+
+    <form>
+        <label>
+            Usuário:
+            <input type="text" size="15" maxlength="30" required>
+        </label>
+        <br><br>
+        <label>
+            Senha:
+            <input type="password" size="17" maxlength="30" required>
+        </label>
+        <br><br>
+        <label>
+            <input type="submit" value="Entrar">
+        </label>
+        <label>
+            <input type="submit" value="Cadastrar-se">
+        </label>
+    </form>
+    <footer>
+        <a href="https://www.instagram.com" target="_blank">
+            <small>ou clique aqui para acessar o novo Instagram</small>
+        </a>
+    </footer>
+
+</body>
+
+</html>
